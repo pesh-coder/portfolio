@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeganHaven</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./company/about.css">
+    <style>
+        .about-section {
+            padding: 50px;
+        }
+        .about-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #003459;
+        }
+        .about-subtitle {
+            color: #00576d;
+        }
+        .divider {
+            border-right: 2px solid #003459;
+            height: auto;
+        }
+        .about-image {
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+        }
+    
+    @keyframes slideTop {
+        0% {
+            transform: translateY(100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+    </style>
+</head>
+<body>
+    <section>
+    <header class="header">
+    <a href="#" class="logo"><img src="./images/veganlogo.png" alt="veganlogo" width="200px"></a>
+<nav class="navbar">
+<a href="#">NOURISH YOUR SOUL, <br>SUSTAIN THE PLANET</a>
+</nav>
+</section>
+<section class="about-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Section -->
+            <div class="col-lg-6 pe-lg-4">
+                <h2 class="about-title">About <span class="about-subtitle">VeganHaven</span></h2>
+                <p>
+                    From mouthwatering recipes to actionable tips for gluten-free living, we empower individuals to embrace a plant-based journey that nourishes both the body and soul.
+                </p>
+                <p>
+                    Our team of food enthusiasts, sustainability advocates, and wellness experts collaborates to bring you innovative ideas and delicious creations—all designed to make vegan living easy, fun, and fulfilling.
+                </p>
+            </div>
+
+            <!-- Divider -->
+            <div class="col-lg-1 text-center d-none d-lg-block">
+                <div class="divider"></div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="col-lg-5">
+                <p>
+                    <strong>Gluten-Free Vegan Haven</strong> is your go-to platform for all things gluten-free and plant-based. Founded with a mission to make healthy living accessible and enjoyable, we’re dedicated to inspiring a sustainable, cruelty-free lifestyle.
+                </p>
+                <img src="vegan-food.jpg" alt="Healthy Vegan Dishes" class="about-image">
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
